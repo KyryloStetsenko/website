@@ -1,0 +1,27 @@
+
+body {
+    background-color: antiquewhite;
+    color: #333333;
+    font-family: Lato, Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Caveat Brush"
+}
+
+.highlighted {
+    background: linear-gradient(
+        to right, 
+        #FAFAD2  100%,  /* Light yellow at the top */
+        #FAFAD2 50%, /* Warm amber in the middle */
+        #FAFAD2 0% /* Gentle yellow at the bottom */
+    );
+    background-blend-mode: multiply;
+    padding: 2px; /* Adds spacing around the text */
+    border-radius: 2px; /* Smooth corners for a more natural look */
+    display: inline-block; /* Ensures proper sizing for inline text */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    text-shadow: -1px 1px 0 rgba(255, 235, 138, 0.7),
+             1px -1px 0 rgba(255, 213, 79, 0.5);
+
+}
