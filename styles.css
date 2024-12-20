@@ -1,12 +1,8 @@
 
 body {
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     color: #333333;
     font-family: Lato, Calibri, 'Trebuchet MS', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: "Caveat Brush"
 }
 
 .highlighted {
@@ -24,4 +20,16 @@ h1, h2, h3 {
     text-shadow: -1px 1px 0 rgba(255, 235, 138, 0.7),
              1px -1px 0 rgba(255, 213, 79, 0.5);
 
+}
+
+.photo-on-table {
+    width: 200px; /* Adjust to your preferred size */
+    border: 1px solid #ddd; /* Mimics a photo border */
+    border-radius: 5px; /* Slight rounding for a softer photo look */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), /* Main shadow */
+                -3px -3px 8px rgba(255, 255, 255, 0.5) inset; /* Highlight inset */
+    transform: rotate(-2deg); /* Subtle tilt for a casual look */
+    background-color: white; /* Emulates a photo paper backing */
+    margin: 10px; /* Creates space around the photo */
+    transition: transform 0.3s ease; /* Adds hover interaction */
 }
