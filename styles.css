@@ -5,6 +5,23 @@ body {
     font-family: Lato, Calibri, 'Trebuchet MS', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    justify-content: center;
+    width: 100px;
+    align-content: end;
+}
+
 .highlighted {
     background: linear-gradient(
         to right, 
